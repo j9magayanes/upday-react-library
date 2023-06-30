@@ -1,0 +1,25 @@
+.articleAlign {
+    position: relative;
+    width: 100%;
+    padding-top: 75%;
+    overflow: hidden;
+    border-radius: 32px;
+}
+
+.rightAlignment {
+    position: absolute;
+    inset: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.6) 98.9%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 24px;
+    height: calc(100% - 48px);
+}

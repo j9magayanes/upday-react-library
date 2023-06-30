@@ -1,0 +1,19 @@
+.padded-lr .legal {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+
+}
+div .page {
+    font-size: 0.9375rem;
+    padding-top: 1rem;
+    box-sizing: content-box;
+    min-height: calc(100% - calc(0.8125rem + 1.5rem) - 1rem);
+    display: block;
+    font-family: Roboto, sans-serif !important;
+}
+
+#imprint{
+    padding: 0 !important;
+    margin: 0 !important;
+}

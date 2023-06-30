@@ -1,0 +1,31 @@
+.header_headerContainer {
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+}
+
+.header_header {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 22px;
+    max-width: 1080px;
+    margin: 0 auto;
+    min-height: 70px;
+}
+
+.header_editionToggle {
+  justify-content: flex-end;
+  gap: 8px;
+  cursor: pointer;
+  height: 28px;
+  align-items: center;
+  font-size: .8125rem;
+  color: gray;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

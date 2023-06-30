@@ -1,0 +1,6 @@
+.category {
+    color: #808080;
+    font-size: pxToRem(12) !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
