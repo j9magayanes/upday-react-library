@@ -9,7 +9,7 @@ export default {
   component: ArticleDetail,
 };
 
-const Template = () =><ArticleDetail />;
+const Template = () =><ArticleDetail args={{items: [{name: "test", callback:"", href:""}]}}/>;
 
 
 export const Default = Template.bind({});

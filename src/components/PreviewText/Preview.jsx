@@ -1,13 +1,13 @@
 import React from 'react';
-import './title.css';
+import './preview.css';
 
 
-export const Title= ({args}) => {
+export const Preview= ({args}) => {
         return (
             <div className="page">
             <article>
             <div className="padded-lr legal">
-                <h1 id="imprint">{args.title}</h1>
+                <h1 id="imprint">{args.detail}</h1>
             </div>
             </article>
             </div>)}

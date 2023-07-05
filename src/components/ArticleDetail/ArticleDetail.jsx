@@ -1,30 +1,29 @@
-import React, { Children } from 'react';
-import PropTypes from 'prop-types';
-import { Image } from '../Image/Image';
+import React from 'react';
 import './articleDetail.css';
 
-export const ArticleDetail = ({
-  children,
-  imageUrl,
-  previewText,
-  ...props
-}) => {
+/* interface propType {
+  footerItemName: String,
+  footerItemCallback: Function
+} */
+
+export const Footer = ({ args }) => {
   return (
-    <article className=''>
-      <a href='https://www.google.com/' className=''>
-        <div className=''>
-          <div className=''>
-            <div className=''>
-              <h3>Test</h3>
-              <cite>
-                Test
-                <span></span>
-                <span></span>
-              </cite>
-            </div>
-          </div>
-        </div>
-      </a>
-    </article>
+    <footer className='padded-lr'>
+      <ul>
+      { args.items.map((item, i) =>
+      <>
+          <li>
+           { item.callback ? <a onClick={item.callback}>  {item.name}
+            </a> : <a href={item.href}>  {item.name}
+            </a>
+            }
+          </li>
+  
+          </>
+      )
+      }
+      </ul>
+      <p>Copyright 2023, upday GmbH & Co. KG</p>
+    </footer>
   );
 };

@@ -3,6 +3,6 @@ import './info.css';
 
 export const Info = ({ ...props}) => {
     return (
-        <div className="info">Story continues below advertisement</div>
+        <div className="info">{props.text}</div>
     )
 }

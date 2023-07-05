@@ -8,7 +8,19 @@ export default {
   component: Title,
 };
 
-const Template = () =><Title args={{title: "Title"}}  />;
+const Template = (args) =><Title {...args}/>;
 
 
 export const Default = Template.bind({});
+Default.args = {
+  label: 'Default',
+  args:{   title: 'Selenskyj fordert EU-Beitrittsverhandlungen',}
+
+
+};
+
+export const Meinestadt = Template.bind({});
+Meinestadt.args = {
+  label: 'Meinstadt',
+  args:{ appName: 'meinestadt', title: 'Selenskyj fordert EU-Beitrittsverhandlungen',}
+};
