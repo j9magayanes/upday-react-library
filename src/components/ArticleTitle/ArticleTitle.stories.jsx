@@ -5,22 +5,21 @@ import { argsHash } from '@storybook/blocks';
 import { ArticleTitle } from './ArticleTitle';
 
 export default {
-    title: 'Example/ArticleTitle',
+    title: 'Form/ArticleTitle',
     component: ArticleTitle,
   };
   
   const Template = (args) =><ArticleTitle   {...args} />;
   
-  export const Huawei = Template.bind({});
-  Huawei.args = {
-    label: 'Huawei',
-    title: 'Huawei'
+  export const Meinestadt = Template.bind({});
+  Meinestadt.args = {
+    label: 'meinestadt',
+    title: 'meinestadt'
   };
   
   export const Web = Template.bind({});
   Web.args = {
     title: 'Web',
-    label: 'Web',
     size: 'web'
   };
   

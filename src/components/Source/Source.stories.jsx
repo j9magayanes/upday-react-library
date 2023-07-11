@@ -9,10 +9,10 @@ export default {
 
 const Template = (args) => <Source {...args} />;
 
-export const Default = Template.bind({});
-Default.args = {
-  label: 'Default',
-  args:{   category: 'Default',}
+export const Web = Template.bind({});
+Web.args = {
+  label: 'Web',
+  args:{ appName: 'web',  source: 'Web',}
 
 
 };

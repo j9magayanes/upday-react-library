@@ -1,13 +1,15 @@
+
 import React from 'react';
+import { Image } from '../Image/Image'
+import { AdWrapper } from '../AdWrapper/AdWrapper'
 import './ad.css';
 
-export const Ad = ({ ...props}) => {
+export const Ad = ({ args}) => {
     return (
         <figure>
-        <img src="https://cdn.pixabay.com/photo/2014/06/03/19/38/board-361516__340.jpg" alt={ props.shortTitle } ref={ ref => (props.imageRef = ref) }/>
-        {
-          props.photoCredits && props.photoCredits !== ' ' && <figcaption>{props.photoCredits}</figcaption>
-        }
+          <AdWrapper>
+        <Image args={args} />
+        </AdWrapper>
       </figure>
     )
 }

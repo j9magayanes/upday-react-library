@@ -15,8 +15,6 @@ export const Default = Template.bind({});
 Default.args = {
   label: 'Default',
   args:{   title: 'Selenskyj fordert EU-Beitrittsverhandlungen',}
-
-
 };
 
 export const Meinestadt = Template.bind({});

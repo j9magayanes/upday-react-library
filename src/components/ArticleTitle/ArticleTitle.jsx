@@ -7,6 +7,6 @@ export const ArticleTitle = (
     { primary, backgroundColor, size, label, title,  ...props }
 ) => {
   return (
-   <h1 id={props.id}       className={['storybook-title', `storybook-title--${size}`].join(' ')}>{title}</h1>
+   <h1 id={props.id} className={['storybook-title', `storybook-title--${size}`].join(' ')}>{title}</h1>
   );
 };

@@ -23,3 +23,34 @@
     margin: 24px;
     height: calc(100% - 48px);
 }
+
+
+
+p {
+    font-family: Roboto Bold,sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black
+}
+
+.storybook-title {
+    color: white
+}
+
+.storybook-title--web {
+    color: black;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    display: -webkit-box;
+    overflow: hidden;
+    color: black;
+  }
+
+  .storybook-title--meinestadt {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    display: -webkit-box;
+    overflow: hidden;
+    color: black;
+    font-family: 'Inter';
+  }

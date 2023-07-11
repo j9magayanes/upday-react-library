@@ -5,6 +5,6 @@ import './source.css';
 export const Source = ({ args }) => {
 
   return (
-   <h1 className={args.appName==='meinestadt'?'categoryDetail meinestadt':'categoryDetail'}>{args.source}</h1>
+   <h1 className={args.appName==='meinestadt' ? 'source meinestadt':'source'}>{args.source}</h1>
   );
 };

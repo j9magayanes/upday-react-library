@@ -3,11 +3,7 @@ import './readmore.css';
 
 
 export const ReadMore= ({args}) => {
+    console.log(args)
         return (
-            <div className="page">
-            <article>
-            <div className="padded-lr legal">
-                <h1 id="imprint">{args.detail}</h1>
-            </div>
-            </article>
-            </div>)}
+            <span id={`storybook-read-more-${args.id}`}>{args.text}</span>
+           )}

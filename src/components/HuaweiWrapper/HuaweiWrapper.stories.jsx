@@ -8,7 +8,11 @@ export default {
   component: HuaweiWrapper,
 };
 
-const Template = () =><HuaweiWrapper />;
+const Template = (args) =><HuaweiWrapper {...args}/>;
 
 
 export const Default = Template.bind({});
+Default.args = {
+  label: 'Default',
+  args:{   id: 'wrapper',}
+};

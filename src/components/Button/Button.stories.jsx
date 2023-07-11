@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from './Button';
 
 export default {
-  title: 'Example/Button',
+  title: 'Page/Button',
   component: Button,
   decorators: [(Story) => (<div style={{ margin: '3em' }}>
   {/* 👇 Decorators in Storybook also accept a function. Replace <Story/> with Story() to enable it  */}
