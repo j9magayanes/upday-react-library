@@ -3,7 +3,7 @@ import './adwrapper.css';
 
 export const AdWrapper = ({ children }) => {
     return (
-      <div className="ad-wrapper grow">
+      <div className="ad-block grow">
         {children}
       </div>
     )

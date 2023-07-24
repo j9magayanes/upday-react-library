@@ -3,7 +3,7 @@
     display: -webkit-box;
     line-height: 120%;
     overflow: hidden;
-    color: gray;
+    color: gray !important;
     font-size: .75rem!important;
     padding-bottom: 12px;
     padding-top: 12px;

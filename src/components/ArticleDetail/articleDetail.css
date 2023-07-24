@@ -51,6 +51,6 @@ p {
     -webkit-line-clamp: 6;
     display: -webkit-box;
     overflow: hidden;
-    color: black;
-    font-family: 'Inter';
+    color: black !important;
+    font-family: 'Inter' !important;
   }

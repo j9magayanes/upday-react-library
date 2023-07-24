@@ -3,7 +3,7 @@ import React from 'react';
 import { NavBar } from './NavBar';
 
 export default {
-  title: 'Page/NavBar',
+  title: 'Form/NavBar',
   component: NavBar,
 };
 

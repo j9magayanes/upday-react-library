@@ -3,7 +3,7 @@ import React from 'react';
 import { Header } from './Header';
 
 export default {
-  title: 'Page/Header',
+  title: 'Form/Header',
   component: Header,
 };
 

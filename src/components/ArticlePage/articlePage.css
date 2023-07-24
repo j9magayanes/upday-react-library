@@ -8,15 +8,22 @@ h1 {
 }
 
 .storybook-title {
-    color: white
+    color:black
 }
 
 .storybook-title--web {
     color: black;
-    background-color: #1ea7fd;
   }
 
   .storybook-title--huawei {
     color: black;
-    background-color: #1ea7fd;
+  }
+
+  .articleDetail {
+
+    background-color: red !important;
+  }
+
+  .readMore {
+    margin: 100px;
   }

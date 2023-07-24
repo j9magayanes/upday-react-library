@@ -5,10 +5,10 @@ import { CategoryDetail } from '../CategoryDetail/CategoryDetail';
 import { Title } from '../Title/Title';
 import { Source } from '../Source/Source';
 import { RelativeTimestamp } from '../RelativeTimestamp/RelativeTimestamp';
-import { FullText } from '../FullText/FullText';
 import { HeroImage } from '../HeroImage/HeroImage';
 import { ImageCredits } from '../ImageCredits/ImageCredits'
 import { ReadMore } from '../ReadMore/ReadMore'
+import { ArticleDetail } from '../ArticleDetail/ArticleDetail'
 
 export const ArticlePage = ({
   primary,
@@ -16,20 +16,26 @@ export const ArticlePage = ({
   size,
   label,
   title,
+  src, 
   args,
 }) => {
   return (
     <>
-      <Ad args={args}></Ad>
+      <Ad args={args}  src={src}></Ad>
       <CategoryDetail args={args}></CategoryDetail>
       <Title args={args}/>
       <Source args={args}/>
       <RelativeTimestamp args={args}/>
       <HeroImage args={args}></HeroImage>
       <ImageCredits args={args}></ImageCredits>
-      <FullText  args={args}></FullText>
+  
+        
+      <ArticleDetail args={args} size={size} title={title}></ArticleDetail >
+
+
+      
       <ReadMore args={args}></ReadMore>
-      <Ad args={args}></Ad>
+      <Ad args={args} src={src} ></Ad>
     </>
   );
 };

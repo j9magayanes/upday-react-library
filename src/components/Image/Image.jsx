@@ -1,11 +1,11 @@
 import React from 'react';
 import './image.css';
 
-export const Image = ({args}) => {
+export const Image = ({label, src, ...args}) => {
     return (
         <figure>
-        <img src={ args.src } alt={ args.shortTitle } ref={ ref => (args.imageRef = ref) }/>
+        <img src={ src } alt={ label } ref={ ref => (label = ref) }/>
 
       </figure>
-    )
+    ) 
 }

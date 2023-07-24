@@ -4,11 +4,12 @@ import { Image } from '../Image/Image'
 import { AdWrapper } from '../AdWrapper/AdWrapper'
 import './ad.css';
 
-export const Ad = ({ args}) => {
+export const Ad = ({ src, label, args, }) => {
     return (
         <figure>
           <AdWrapper>
-        <Image args={args} />
+            <h3>Story continues below advertisement</h3>
+        <Image args={args} src={src}/>
         </AdWrapper>
       </figure>
     )
