@@ -1,12 +1,12 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect'; // Import this line
-import App from './App';
+import {Ad}from './Ad';
 
-describe('App', () => {
+describe('Ad', () => {
   it('renders a p tag with the text "Hello, World!"', () => {
-    const { getByText } = render(<App />);
-    const pElement = getByText('Edit');
+    const { getByText } = render(<Ad />);
+    const pElement = getByText('Story continues below advertisement');
     expect(pElement).toBeInTheDocument();
   });
 });
