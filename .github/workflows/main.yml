@@ -17,6 +17,9 @@ jobs:
       # ...
 
       - name: Publish to npm registry
+        with:
+          username: ${{ secrets.JAN_NPM_USERNAME }}
+          password: ${{ secrets.JAN_NPM_PASSWORD }}
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.JAN_NPM_TOKEN }}
