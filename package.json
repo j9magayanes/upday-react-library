@@ -1,6 +1,6 @@
 {
   "name": "upday-react-components",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "private": false,
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
