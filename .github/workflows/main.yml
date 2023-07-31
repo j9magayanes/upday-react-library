@@ -3,7 +3,7 @@ name: Publish to NPM
 on:
   push:
     branches:
-      - Scrollbar-Component
+      - main
 
 jobs:
   publish:
