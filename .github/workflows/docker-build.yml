@@ -19,5 +19,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t ghcr.io/${{ secrets.JAN_DOCKER_USERNAME }}/upday-react-library:latest .
-          docker push ghcr.io/${{ secrets.JAN_DOCKER_USERNAME }}/upday-react-library:latest
+          docker build -t gcr.io/upday-react-library/upday-react-library:latest .
+          docker push gcr.io/upday-react-library/upday-react-library:latest
