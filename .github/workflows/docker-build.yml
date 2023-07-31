@@ -17,6 +17,11 @@ jobs:
           version: 'latest'
           service_account_key: ${{ secrets.JAN_GCP_SA_KEY }}
           project_id: upday-react-library
+    
+      - name: Configure GC
+        run: |
+          gcloud auth login
+          gcloud auth activate-service-account janine.magayanes@code.berlin@upday-react-library.iam.gserviceaccount.com
 
       - name: Configure Docker CLI
         run: |
