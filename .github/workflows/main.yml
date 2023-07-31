@@ -27,7 +27,7 @@ jobs:
       # Add your tests if required
 
       - name: Log in to npm registry
-        run: echo "//registry.npmjs.org/:_authToken=${JAN_NPM_TOKEN}" > .npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
         env:
           NPM_TOKEN: ${{ secrets.JAN_NPM_TOKEN }}
 
