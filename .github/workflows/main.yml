@@ -3,7 +3,7 @@ name: Publish to NPM
 on:
   push:
     branches:
-      - main
+      - Scrollbar-Component
 
 jobs:
   publish:
@@ -25,6 +25,11 @@ jobs:
         run: npm run build
 
       # Add your tests if required
+
+      - name: Configure Git identity
+        run: |
+          git config user.name ${{ secrets.JAN_GITHUB_USERNAME }}
+          git config user.email ${{ secrets.JAN_GITHUB_EMAIL }}
 
       - name: Automate Versioning
         run: npm version patch
