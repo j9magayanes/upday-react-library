@@ -3,7 +3,7 @@ name: CI/CD
 on:
   push:
     branches:
-      - main
+      - Scrollbar-Component
 
 jobs:
   build-and-publish:
