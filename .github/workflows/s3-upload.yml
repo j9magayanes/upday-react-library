@@ -1,0 +1,25 @@
+name: Upload to S3
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up AWS CLI
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.JAN_AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.JAN_AWS_SECRET_ACCESS_KEY }}
+          aws-region: YOUR_AWS_REGION
+
+      - name: Upload files to S3
+        run: |
+          aws s3 sync path/to/your/files s3://your-s3-bucket-name
