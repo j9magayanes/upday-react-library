@@ -3,6 +3,7 @@ name: Pull Request Workflow
 on:
   pull_request:
     branches:
+      - staging
       - main  # Replace with the branch you want to target
 
 jobs:
