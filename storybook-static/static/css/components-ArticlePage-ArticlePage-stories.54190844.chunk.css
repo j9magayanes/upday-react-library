@@ -1,0 +1,204 @@
+
+
+h1 {
+    font-family: Roboto Bold,sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black
+}
+
+.storybook-title {
+    color:black
+}
+
+.storybook-title--web {
+    color: black;
+  }
+
+  .storybook-title--huawei {
+    color: black;
+  }
+
+  .articleDetail {
+
+    background-color: red !important;
+  }
+
+  .readMore {
+    margin: 100px;
+  }
+
+
+img {
+
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 250px;
+        max-height: 250px;
+    
+}
+.ad-block {
+    background-color: #f2f2f2;
+    align-self: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: flex-grow ease-in-out 1s;
+    margin: 16px 0;
+    position: relative;
+  }
+  
+  .grow {
+    flex-grow: 1;
+  }
+
+.categoryDetail {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    line-height: 120%;
+    overflow: hidden;
+    color: gray !important;
+    font-size: .75rem!important;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.meinestadt {
+    font-family: 'Inter';
+}
+.title h1 {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 1.75rem;
+    line-height: 120%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.meinestadt {
+    font-family: 'Inter';
+}
+.source-meinestadt {
+  font-weight: 700;
+  color: #000 !important;
+  margin-right: 0.3125rem;
+  font-family: Roboto Bold,sans-serif;
+  font-size: 12px !important;
+}
+
+.source{
+  font-weight: 700;
+  color: #000 !important;
+  margin-right: 0.3125rem;
+  font-family: 'Inter';
+  font-size: 12px !important;
+}
+ .timestamp {
+  color: #000;
+    margin-right: 0.3125rem;
+    font-size: 12px !important;
+  
+}
+
+#web {
+  border: none !important;
+    text-transform: none !important;
+}
+
+#meinestadt {
+  border: none !important;
+    text-transform: none !important;
+    font-family: Inter, sans-serif;
+}
+.hero {
+
+    min-width: 100% !important;
+    max-width: 100% !important;
+    min-height:  100% !important;
+    max-height:  100% !important;
+}
+.imageCredits span{
+    border: none;
+}
+span {
+  align-self: start;
+    color: #121212;
+    font-size: .9375rem;
+    line-height: .9375rem;
+    padding: 14px;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+}
+
+#storybook-read-more-web {
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 89px;
+}
+
+ #storybook-read-more-meinestadt  {
+  font-family: 'Inter';
+  border: 1px solid #ccc;
+  border-radius: 89px;
+}
+.articleAlign {
+    position: relative;
+    width: 100%;
+    padding-top: 75%;
+    overflow: hidden;
+    border-radius: 32px;
+}
+
+.rightAlignment {
+    position: absolute;
+    inset: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.6) 98.9%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 24px;
+    height: calc(100% - 48px);
+}
+
+
+
+p {
+    font-family: Roboto Bold,sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black
+}
+
+.storybook-title {
+    color: white
+}
+
+.storybook-title--web {
+    color: black;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    display: -webkit-box;
+    overflow: hidden;
+    color: black;
+  }
+
+  .storybook-title--meinestadt {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    display: -webkit-box;
+    overflow: hidden;
+    color: black !important;
+    font-family: 'Inter' !important;
+  }
+
+/*# sourceMappingURL=components-ArticlePage-ArticlePage-stories.54190844.chunk.css.map*/

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/components-Text-Text-stories.7e82917d.chunk.css","mappings":"AAAA;AACA;AACA;AACA;AACA;AACA","sources":["webpack://upday-react-components/./src/components/Text/text.css"],"sourcesContent":[".category {\n    color: #808080;\n    font-size: pxToRem(12) !important;\n    padding-top: 12px;\n    padding-bottom: 12px;\n  }"],"names":[],"sourceRoot":""}

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageComponent renders correctly 1`] = `
+<figure>
+  <image-component
+    class="meinestadt"
+    label="Example Title"
+    size="large"
+    src="example.jpg"
+  />
+</figure>
+`;

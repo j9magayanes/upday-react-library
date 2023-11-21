@@ -1,0 +1,69 @@
+.navigation_navigation {
+    overflow-x: scroll;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    border-top: 1px solid #f6f6f6;
+}
+
+.drawer_drawer {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: -100%;
+    transition: .5s cubic-bezier(.66,.02,1,1);
+    background: #fff;
+}
+
+
+.drawer_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px;
+}
+
+.drawer_icon {
+    width: 82px;
+    height: 24px;
+}
+
+.drawer_navSections {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 23px;
+}
+
+.editionSwitch_editionSwitch {
+    background-color: #f6f6f6;
+    color: gray;
+    position: relative;
+    display: none;
+}
+
+.navigation_menu {
+display: flex;
+align-items: center;
+gap: 24px;
+padding: 8px 22px;
+color: gray;
+font-size: 13px;
+}
+
+.navigation_menuItem {
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 400;
+    text-align: center;
+    transition: font-weight .05s ease-in-out;
+}
+ul {
+    list-style-type: none;
+}
+
+/*# sourceMappingURL=components-NavBar-NavBar-stories.15a0befd.chunk.css.map*/

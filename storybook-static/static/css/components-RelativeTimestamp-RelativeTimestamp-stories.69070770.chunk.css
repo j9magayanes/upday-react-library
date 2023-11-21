@@ -1,0 +1,19 @@
+ .timestamp {
+  color: #000;
+    margin-right: 0.3125rem;
+    font-size: 12px !important;
+  
+}
+
+#web {
+  border: none !important;
+    text-transform: none !important;
+}
+
+#meinestadt {
+  border: none !important;
+    text-transform: none !important;
+    font-family: Inter, sans-serif;
+}
+
+/*# sourceMappingURL=components-RelativeTimestamp-RelativeTimestamp-stories.69070770.chunk.css.map*/

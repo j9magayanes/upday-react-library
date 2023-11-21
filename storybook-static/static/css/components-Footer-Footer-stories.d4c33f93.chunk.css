@@ -1,0 +1,46 @@
+
+footer {
+    height: 80px;
+    font-size: 0.625rem;
+    line-height: 0.8125rem;
+    text-align: center;
+    color: #FFFFFF;
+    background: #50D4F5;
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer ul {
+    font-weight: bold;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+    
+}
+
+footer .padded-lr {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+
+footer a {
+    padding: 1em;
+    color: #FFFFFF
+}
+
+footer li {
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+    margin-right: pxToRem(32);
+}
+footer p {
+    font-family: Roboto, sans-serif;
+    padding: 4px; 
+}
+
+
+/*# sourceMappingURL=components-Footer-Footer-stories.d4c33f93.chunk.css.map*/

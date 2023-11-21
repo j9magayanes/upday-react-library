@@ -44,6 +44,7 @@ p {
     display: -webkit-box;
     overflow: hidden;
     color: black;
+    font-family: 'Roboto' !important;
   }
 
   .storybook-title--meinestadt {

@@ -1,0 +1,21 @@
+.shareIcon {
+  fill: rgb(242, 242, 242);
+  color: "#646464"
+}
+
+.share {
+    fill: gray
+}
+
+.shareDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+p.articleText {
+    margin: 0 12px 0 0;
+    font-family: sans;
+}
+
+/*# sourceMappingURL=components-Share-Share-stories.0b7c629a.chunk.css.map*/

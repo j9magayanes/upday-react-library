@@ -1,16 +1,16 @@
 
 import React from 'react';
 import { Image } from '../Image/Image'
-import { AdWrapper } from '../AdWrapper/AdWrapper'
+import  'upday-web-components/components/adWrapper'
 import './ad.css';
 
 export const Ad = ({ src, label, args, }) => {
     return (
         <figure>
-          <AdWrapper>
-            <h3>Story continues below advertisement</h3>
-        <Image args={args} src={src}/>
-        </AdWrapper>
+          <ad-wrapper class="ad-block grow">
+              <h3>Story continues below advertisement</h3>
+              <image-component args={args} src={src}/>
+          </ad-wrapper>
       </figure>
     )
 }

@@ -1,23 +1,27 @@
 {
   "name": "upday-react-components",
-  "version": "0.2.9",
+  "version": "0.2.10",
+  "type": "module",
+  "extensions": [
+    "js",
+    "jsx"
+  ],
   "private": false,
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "upday-web-components": "^1.0.37",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build:staging":"storybook build",
+    "build:staging": "storybook build",
     "build:prod": "storybook build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
     "cypress-test": "npx cypress open"
   },
   "eslintConfig": {
@@ -26,6 +30,9 @@
       "react-app/jest",
       "plugin:storybook/recommended"
     ]
+  },
+  "transform": {
+    "^.+\\.[t|j]sx?$": "babel-jest"
   },
   "browserslist": {
     "production": [
@@ -40,7 +47,10 @@
     ]
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.22.5",
+    "@babel/core": "^7.23.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
     "@storybook/addon-essentials": "^7.0.18",
     "@storybook/addon-interactions": "^7.0.18",
     "@storybook/addon-links": "^7.0.18",
@@ -49,14 +59,19 @@
     "@storybook/react": "^7.0.18",
     "@storybook/react-webpack5": "^7.0.18",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/vue": "^7.5.2",
+    "@testing-library/dom": "^9.3.3",
     "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^14.0.0",
+    "@testing-library/react": "^14.1.2",
+    "babel-jest": "^29.7.0",
     "babel-plugin-named-exports-order": "^0.0.2",
     "cypress": "^12.17.2",
     "eslint-plugin-storybook": "^0.6.12",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-test-renderer": "^18.2.0",
     "storybook": "^7.0.18",
     "webpack": "^5.85.0"
   }

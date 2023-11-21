@@ -1,0 +1,14 @@
+.title h1 {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 1.75rem;
+    line-height: 120%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.meinestadt {
+    font-family: 'Inter';
+}
+
+/*# sourceMappingURL=components-Title-Title-stories.f3209324.chunk.css.map*/

@@ -1,16 +1,14 @@
 module.exports = {
-    clearMocks: true,
+  // ... other Jest configuration options
 
-    collectCoverage: true,
-    collectCoverageFrom: ['src/**/*.{js,jsx,mjs}'],
-    coverageDirectory: 'coverage',
-    moduleFileExtensions: ['js', 'json', 'jsx'],
-    testEnvironment: 'jsdom',
-    testMatch: ['src/**/*.js?(x)', '**/?(*.)+(spec|test).js?(x)'],
-    testURL: 'http://localhost',
-    moduleNameMapper: {
-        '\\.(css|less)$': 'identity-obj-proxy',
-      },
-    verbose: false,
-
-  };
+  moduleNameMapper: {
+    '\\.(css|less)$': 'identity-obj-proxy',
+    'upday-web-components/imageComponent': 'upday-react-library/node_modules/upday-web-components/imageComponent.js',
+  },
+  type: 'module',
+  transform: {
+    '^.+\\.[t|j]sx?$': 'babel-jest',
+    "^.+\\.jsx?$": "babel-jest",
+    'upday-web-components/imageComponent': 'babel-jest',
+  },
+};
