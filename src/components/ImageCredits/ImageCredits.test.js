@@ -1,7 +1,7 @@
 // ImageComponent.test.js
 import '@testing-library/jest-dom';
 import renderer from 'react-test-renderer';
-import ImageCredits  from 'upday-web-components/components/imageCredits';
+
 import { ImageCredits as Image } from './ImageCredits';
 import { JSDOM } from 'jsdom';
 
@@ -15,7 +15,7 @@ describe('ImageComponent', () => {
     global.document = dom.window.document;
 
     // Instantiate your web component
-    const imageCredits = <image-credits />;
+    const imageCredits = <Image />;
   
 
     // Perform assertions based on the default state
