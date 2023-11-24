@@ -1,10 +1,10 @@
 import React from 'react';
 import './categoryDetail.css';
+import 'upday-web-components/components/categoryDetail';
 
-
-export const CategoryDetail = ({ args }) => {
+export const CategoryDetail = ({ category }) => {
 
   return (
-   <h1 className={args.appName==='meinestadt'?'categoryDetail meinestadt':'categoryDetail'}>{args.category}</h1>
+    <category-detail>{category}</category-detail>
   );
 };

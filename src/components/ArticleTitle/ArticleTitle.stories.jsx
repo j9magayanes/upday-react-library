@@ -13,14 +13,16 @@ export default {
   
   export const Meinestadt = Template.bind({});
   Meinestadt.args = {
-    label: 'meinestadt',
-    title: 'meinestadt'
+    id: 'meinestadt',
+    title: 'meinestadt',
+    className: 'meinestadt'
   };
   
   export const Web = Template.bind({});
   Web.args = {
     title: 'Web',
-    size: 'web'
+    id: 'web',
+    className: 'web'
   };
   
  

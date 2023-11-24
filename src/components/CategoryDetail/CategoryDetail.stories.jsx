@@ -15,7 +15,7 @@ export const Default = Template.bind({});
 Default.args = {
   label: 'Default',
  
-  args:{   category: 'Default',}
+ category: 'Default',
 
 
 };

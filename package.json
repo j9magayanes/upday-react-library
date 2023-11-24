@@ -1,6 +1,6 @@
 {
   "name": "upday-react-components",
-  "version": "0.2.10",
+  "version": "0.2.27",
   "type": "module",
   "extensions": [
     "js",
@@ -11,7 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "upday-web-components": "^1.0.37",
+    "upday-web-components": "^1.0.62",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
