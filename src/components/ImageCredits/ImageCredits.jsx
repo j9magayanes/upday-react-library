@@ -1,5 +1,5 @@
 import React from 'react';
-import './imageCredits.css';
+import './imageCredits.css'
 
 export const ImageCredits = ({ ...props}) => {
     return (
