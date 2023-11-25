@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Image } from '../Image/Image'
 import  'upday-web-components/components/adWrapper'
 import './ad.css';
 

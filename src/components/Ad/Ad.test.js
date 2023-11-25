@@ -6,7 +6,7 @@ import {Ad}from './Ad';
 describe('Ad', () => {
   it('renders a p tag with the text "Hello, World!"', () => {
     const { getByText } = render(<Ad />);
-    const pElement = getByText('Story continues below advertisement');
-    expect(pElement).toBeInTheDocument();
+    const element = getByText('Story continues below advertisement');
+    expect(element).toBeInTheDocument();
   });
 });
