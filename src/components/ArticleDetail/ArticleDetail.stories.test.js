@@ -4,7 +4,7 @@ import { composeStories } from '@storybook/testing-react';
 
 import * as stories from './ArticleDetail.stories';
 
-const { Meinestadt, Web } = composeStories(stories);
+const { Meinestadt } = composeStories(stories);
 
 test('renders ArticleDetail component with correct class and text', () => {
     render(<Meinestadt />);

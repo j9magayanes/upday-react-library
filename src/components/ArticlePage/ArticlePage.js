@@ -16,6 +16,7 @@ export const ArticlePage = ({
   size,
   label,
   title,
+  appName,
   src, 
   args,
 }) => {
@@ -23,17 +24,12 @@ export const ArticlePage = ({
     <>
       <Ad args={args}  src={src}></Ad>
       <CategoryDetail args={args}></CategoryDetail>
-      <Title args={args}/>
+      <Title args={args} />
       <Source args={args}/>
       <RelativeTimestamp args={args}/>
       <HeroImage args={args}></HeroImage>
       <ImageCredits args={args}></ImageCredits>
-  
-        
       <ArticleDetail args={args} size={size} title={title}></ArticleDetail >
-
-
-      
       <ReadMore args={args}></ReadMore>
       <Ad args={args} src={src} ></Ad>
     </>
