@@ -16,12 +16,13 @@ Default.args = {
   label: 'Default',
  
  category: 'Default',
-
+ args:{ appName: 'meinestadt',  category: 'Default',}
 
 };
 
 export const Meinestadt = Template.bind({});
 Meinestadt.args = {
   label: 'Meinstadt',
+  category: 'Top News',
   args:{ appName: 'meinestadt',  category: 'Default',}
 };
