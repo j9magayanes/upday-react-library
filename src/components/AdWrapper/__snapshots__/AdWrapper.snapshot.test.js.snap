@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders AdWrapper component correctly 1`] = `
+<div
+  className="ad-block grow"
+>
+  Test Content
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ReadMore component correctly 1`] = `
+<div>
+  <span
+    id="storybook-read-more-123"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </span>
+</div>
+`;

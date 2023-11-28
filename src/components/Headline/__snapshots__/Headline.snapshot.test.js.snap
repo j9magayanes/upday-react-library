@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Headline component correctly 1`] = `
+<div
+  className="padded-lr legal"
+>
+  <h1
+    id="imprint"
+  >
+    Your headline text here
+  </h1>
+</div>
+`;

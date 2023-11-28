@@ -2,8 +2,8 @@ import React from 'react';
 import './fullText.css';
 
 
-export const FullText = ({ args }) => {
+export const FullText = ({ title, fulltext }) => {
   return (
-    <h2>{args.fulltext}</h2>
+    <h2 id="fulltext" title={title}>{fulltext}</h2>
   );
 };

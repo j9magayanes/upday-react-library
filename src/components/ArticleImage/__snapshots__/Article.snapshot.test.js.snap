@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ArticleImage component correctly 1`] = `
+<article-image
+  alt="your-alt-text"
+  figureRef={null}
+  imageRef={null}
+  photoCaption="your-photo-caption"
+  src="your-image-src"
+/>
+`;

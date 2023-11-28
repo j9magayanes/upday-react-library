@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Ad component correctly 1`] = `
+<figure>
+  <ad-wrapper
+    class="ad-block grow"
+  >
+    <h3>
+      Story continues below advertisement
+    </h3>
+    <image-component
+      args={Object {}}
+      src="your-image-src"
+    />
+  </ad-wrapper>
+</figure>
+`;

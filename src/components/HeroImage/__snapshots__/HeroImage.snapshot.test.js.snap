@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders HeroImage component correctly 1`] = `
+<figure>
+  <img
+    alt="Short Title"
+    className="your-class"
+    src="your-image-src.jpg"
+  />
+  <figcaption>
+    Photo Credits
+  </figcaption>
+</figure>
+`;

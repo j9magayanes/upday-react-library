@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ArticleTitle component correctly 1`] = `
+<article-title
+  className="your-class-name"
+>
+  Your Title
+</article-title>
+`;

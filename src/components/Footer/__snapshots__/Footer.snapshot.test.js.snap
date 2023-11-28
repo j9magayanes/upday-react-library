@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Footer component correctly 1`] = `
+<div
+  className="padded-lr"
+>
+  <list-component
+    items={
+      Array [
+        "Item 1",
+        "Item 2",
+        "Item 3",
+      ]
+    }
+  />
+</div>
+`;

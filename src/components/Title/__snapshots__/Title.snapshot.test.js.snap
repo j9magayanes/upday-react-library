@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Title component correctly 1`] = `
+<h1
+  className="title meinestadt"
+>
+  Your Title Here
+</h1>
+`;

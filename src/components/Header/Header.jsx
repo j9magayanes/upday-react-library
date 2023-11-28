@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import { NavBar } from '../NavBar/NavBar';
 import './header.css';
 
-export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
+export const Header = ({ href }) => (
   <div className="header_headerContainer">
   <header className='header_header'>
-    <a href="https://www.upday.com/de">
+    <a id="link" href={href}>
     <svg width="125" height="24" viewBox="0 0 125 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M12 0C5.37688 0 0 5.37688 0 12C0 18.6231 5.37688 24 12 24C18.6231 24 24 18.6231 24 12C24 5.37688 18.6231 0 12 0Z" fill="#1DB8DA"/>
     <path d="M19.8011 12.0012C19.8011 16.3128 16.3137 19.8002 12.0021 19.8002C7.69056 19.8002 4.20312 16.3128 4.20312 12.0012H8.04232C8.04232 14.1922 9.81116 15.961 12.0021 15.961C14.1931 15.961 15.9619 14.1922 15.9619 12.0012H19.8011Z" fill="white"/>
@@ -21,7 +21,7 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
     </a>
     <div className='header_editionToggle'>
     <svg width="28" height="19" viewBox="0 0 28 19" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_1636_107944" maskUnits="userSpaceOnUse" x="0" y="0" width="28" height="19" ><rect width="28" height="18.6667" rx="2.66667" fill="#C4C4C4"></rect></mask><g mask="url(#mask0_1636_107944)"><rect width="28" height="6.22222" fill="#262626"></rect><rect y="6.22266" width="28" height="6.22222" fill="#F44653"></rect><rect y="12.4453" width="28" height="6.22222" fill="#FFCF3C"></rect></g></svg>
-    <font ><font >EN</font></font>
+    <font ><font ></font></font>
     </div>
   </header>
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="header_hamburgerIcon__wmtK5" data-testid="header-hamburgerIcon"><rect y="2" width="18" height="2" fill="#808080"></rect><rect y="8" width="18" height="2" fill="#808080"></rect><rect y="14" width="18" height="2" fill="#808080"></rect></svg>

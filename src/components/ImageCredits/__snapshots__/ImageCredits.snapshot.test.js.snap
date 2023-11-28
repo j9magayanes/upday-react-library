@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ImageCredits component correctly 1`] = `
+<span
+  className="imageCredits"
+>
+  Baden-Württemberg, Ulm: Der Angeklagte wird in Hand- und Fußschellen in den Gerichtssaal geführt. Foto: Felix Kästle/dpa
+</span>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders FullText component correctly 1`] = `
+<h2
+  id="fulltext"
+  title="Example Title"
+>
+  This is the full text content.
+</h2>
+`;

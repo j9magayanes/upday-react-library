@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CategoryDetail component correctly 1`] = `
+<category-detail
+  id="category-detail"
+>
+  Your Category
+</category-detail>
+`;

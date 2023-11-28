@@ -11,8 +11,12 @@ const Template = (args) => <Header {...args} />;
 
 export const Website= Template.bind({});
 Website.args = {
-  user: {},
+  href: "https://www.upday.com/de",
+  name: "john",
 };
 
 export const Huawei = Template.bind({});
-Huawei.args = {};
+Huawei.args = {
+  href: "https://www.upday.com/de",
+  name: "john",
+};

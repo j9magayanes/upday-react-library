@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ArticlePage component correctly 1`] = `
+Array [
+  <figure>
+    <ad-wrapper
+      class="ad-block grow"
+    >
+      <h3>
+        Story continues below advertisement
+      </h3>
+      <image-component
+        args={
+          Object {
+            "imageRef": null,
+          }
+        }
+        src="your-image-src"
+      />
+    </ad-wrapper>
+  </figure>,
+  <category-detail
+    id="category-detail"
+  />,
+  <h1
+    className="title"
+  />,
+  <h1
+    className="source"
+  />,
+  <span
+    className="timestamp"
+  />,
+  <figure>
+    <img />
+  </figure>,
+  <span
+    className="imageCredits"
+  >
+    Baden-Württemberg, Ulm: Der Angeklagte wird in Hand- und Fußschellen in den Gerichtssaal geführt. Foto: Felix Kästle/dpa
+  </span>,
+  <article-detail
+    data-testid="articleDetail"
+  />,
+  <span
+    id="storybook-read-more-undefined"
+  />,
+  <figure>
+    <ad-wrapper
+      class="ad-block grow"
+    >
+      <h3>
+        Story continues below advertisement
+      </h3>
+      <image-component
+        args={
+          Object {
+            "imageRef": null,
+          }
+        }
+        src="your-image-src"
+      />
+    </ad-wrapper>
+  </figure>,
+]
+`;
